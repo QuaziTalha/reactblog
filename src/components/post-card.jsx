@@ -4,7 +4,7 @@ function PostCard(post) {
     return (
         <>
             <div className="post-preview">
-                <Link to={'/post/' + post.prop.title}>
+                <Link to={'/post/' + post.prop.id}>
                     <h2 className="post-title">
                         {post.prop.title}
                     </h2>
